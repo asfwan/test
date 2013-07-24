@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="reader_content_row_thumbnail_maxwidth">64dp</dimen>
+    <dimen name="reader_content_row_thumbnail_maxheight">64dp</dimen>
+    <dimen name="main_library_book_thumbnail_maxwidth">200dp</dimen>
+    <dimen name="main_library_book_thumbnail_maxheight">400dp</dimen>
+
+    <dimen name="reader_content_slider_width">600dp</dimen>
+    <dimen name="reader_content_slider_shadow_width">15dp</dimen>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cloud E-Book</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="web_host_service_label">EBook Local Service</string>
+    <string name="web_host_service_description">Local service for ebooks</string>
+    <string name="activity_main_please_wait_while_loading">Please be patient lah!</string>
+    <string name="fragment_wait_wait_msg">Please wait while initializing</string>
+    <string name="reader_loading_content_wait_msg">Please wait while loading content</string>
+    <string name="fragment_reader_menu_fontsize">T</string>
+    <string name="fragment_reader_textsize_default">Default</string>
+    <string name="fragment_reader_menu_fontsize_smallest">Smallest</string>
+    <string name="fragment_reader_menu_fontsize_smaller">Smaller</string>
+    <string name="fragment_reader_menu_fontsize_normal">Normal</string>
+    <string name="fragment_reader_menu_fontsize_larger">Larger</string>
+    <string name="fragment_reader_menu_fontsize_largest">Largest</string>
+    <string name="main_login_selectaccount">Please select account to use:</string>
+    <string name="fragment_reader_menu_addbookmark">Add Bookmark</string>
+
+</resources>

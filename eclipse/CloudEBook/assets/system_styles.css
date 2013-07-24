@@ -1,0 +1,91 @@
+
+.ebook-system-highlight {
+  background-color: rgba(255,255,0,128);
+}
+
+.ebook-system-note {
+  border-bottom: 1px dotted blue;
+}
+
+.ebook-system-highlight-note {
+  background-color: rgba(152,251,152,128);
+  border-bottom: 1px dotted blue;
+}
+
+div.ebook-block-overlay {
+  position: fixed;
+  background-color:rgba(0,0,0,0.3);
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+div.ebook-outer-container {
+  background-color: floralwhite;
+  width: 100%;
+//  overflow: -moz-scrollbars-vertical; 
+//  overflow-y: scroll;
+}
+
+div.ebook-inner-container {
+  position: relative;
+  display: block;
+}
+
+div.ebook-container {
+  background-color: transparent;
+}
+
+div.ebook-side-panel {
+  background-color: beige;
+  position: absolute;
+  height: 100%;
+  width: 100px;
+}
+
+div.ebook-side-panel-annotation-entry {
+  background-color: yellow;
+  position: absolute;
+  width : 5px;
+  border-radius: 3px;
+  border: 3px solid palegreen;
+}
+
+div.ebook-side-panel-bookmark-entry {
+  background-color: red;
+  position: absolute;
+  width : 17px;
+  height : 17px;
+  border-radius: 3px;
+  border: 1px solid gray;
+  color: black;
+  text-align: center;
+}
+
+.ebook-text-highlight {
+  background-color: rgba(135,206,250,0.5);
+}
+
+div.ebook-text-highlight-handle {
+  border-left-width: 2em;
+  border-left-style: solid;
+  border-left-color: blue;
+  
+  border-right-width: 2em;
+  border-right-style: solid;
+  border-right-color: blue;
+  
+  border-top-width: 1.0em;
+  border-top-style: solid;
+  border-top-color: transparent;
+  
+  border-bottom-width: 1.0em;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  
+  background-color: transparent;
+  height: 2.0em;
+  width: 0;
+  content: "";
+}

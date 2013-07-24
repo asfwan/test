@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/reader_menu_addbookmark"
+            android:showAsAction="always"
+            android:title="@string/fragment_reader_menu_addbookmark">
+    </item>
+
+    <item
+            android:id="@+id/reader_menu_fontsize"
+            android:showAsAction="always"
+            android:title="@string/fragment_reader_menu_fontsize">
+        <menu>
+            <item
+                    android:id="@+id/reader_menu_fontsize_smallest"
+                    android:title="@string/fragment_reader_menu_fontsize_smallest"/>
+            <item
+                    android:id="@+id/reader_menu_fontsize_smaller"
+                    android:title="@string/fragment_reader_menu_fontsize_smaller"/>
+            <item
+                    android:id="@+id/reader_menu_fontsize_normal"
+                    android:title="@string/fragment_reader_menu_fontsize_normal"/>
+            <item
+                    android:id="@+id/reader_menu_fontsize_larger"
+                    android:title="@string/fragment_reader_menu_fontsize_larger"/>
+            <item
+                    android:id="@+id/reader_menu_fontsize_largest"
+                    android:title="@string/fragment_reader_menu_fontsize_largest"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+        >
+
+    <ProgressBar
+            android:id="@+id/wait_screen_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+    <TextView
+            android:id="@+id/wait_screen_wait_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wait_screen_progress_bar"
+            android:layout_centerHorizontal="true"
+            android:text="@string/fragment_wait_wait_msg"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+
+</RelativeLayout>

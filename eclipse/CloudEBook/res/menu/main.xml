@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/changelayout"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="ListView">
+    </item>
+    <item android:id="@+id/sort" android:title="Sort Alpha"></item>
+
+</menu>
